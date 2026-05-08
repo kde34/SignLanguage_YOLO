@@ -14,9 +14,9 @@ import threading  # [추가] 속도 개선을 위한 스레딩 모듈
 
 def send_solapi_sms(to_number, translated_word):
     """솔라피를 이용해 번역된 수어를 문자로 전송하는 함수 (기존과 동일)"""
-    API_KEY = "NCSUA3MEFMSQTU1C"
-    API_SECRET = "S0RHL4WUCCNDBFBFGDXROJUNXKZIWRAI"
-    FROM_NUMBER = "01054554649" 
+    API_KEY = "--"
+    API_SECRET = "--"
+    FROM_NUMBER = "--" 
     
     date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     salt = str(uuid.uuid1().hex)
