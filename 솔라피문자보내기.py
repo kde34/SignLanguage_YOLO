@@ -8,9 +8,9 @@ def send_solapi_sms(to_number, translated_word):
     """솔라피를 이용해 번역된 수어를 문자로 전송하는 함수"""
     
     # ⚠️ 여기에 솔라피 홈페이지에서 발급받은 정보를 쏙쏙 넣어주세요!
-    API_KEY = "NCSUA3MEFMSQTU1C"
-    API_SECRET = "S0RHL4WUCCNDBFBFGDXROJUNXKZIWRAI"
-    FROM_NUMBER = "01054554649" # 예: 01012345678 (하이픈 빼고 숫자만!)
+    API_KEY = "--"
+    API_SECRET = "--"
+    FROM_NUMBER = "--" # 예: 01012345678 (하이픈 빼고 숫자만!)
     
     # 솔라피 공식 암호화(HMAC) 인증 과정
     date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
