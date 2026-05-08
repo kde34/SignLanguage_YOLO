@@ -20,9 +20,9 @@ main_speaker_box = None # 마지막으로 찾은 사람 위치 기억
 
 def send_solapi_sms(to_number, translated_word):
     """솔라피 문자 전송 함수 (기존 로직 유지)"""
-    API_KEY = "NCSUA3MEFMSQTU1C"
-    API_SECRET = "S0RHL4WUCCNDBFBFGDXROJUNXKZIWRAI"
-    FROM_NUMBER = "01054554649" 
+    API_KEY = "--"
+    API_SECRET = "--"
+    FROM_NUMBER = "--" 
     
     date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     salt = str(uuid.uuid1().hex)
